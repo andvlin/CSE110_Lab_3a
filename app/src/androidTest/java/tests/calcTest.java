@@ -27,7 +27,7 @@ public class calcTest extends ActivityInstrumentationTestCase2<MainActivity> {
         TextView resultNum = (TextView) mainActivity.findViewById(R.id.view_result);
         int num1 = 57;
         int num2 = 49;
-        int sum = 106;
+        int sum = 8;
         firstNum.setText(Integer.toString(num1));
         secNum.setText(Integer.toString(num2));
         btnAdd.performClick();
